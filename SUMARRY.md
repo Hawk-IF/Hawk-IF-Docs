@@ -1,7 +1,6 @@
 # SUMMARY
 
 Este documento funciona como índice geral da documentação do projeto Hawk-IFRN
-não ha nada aqui ainda, centralizando a navegação entre os diferentes módulos, artefatos e áreas do sistema.
 
 ## Estrutura Geral
 
