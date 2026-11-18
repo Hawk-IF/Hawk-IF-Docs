@@ -1,53 +1,25 @@
 # Hawk-IF
-O Hawk If é um sistema de gerenciamento de salas
-automatizado que funciona atraves de sensores colocados 
-em cada sala, ele permite ver o status de um sala e agendar seu uso
-junto a um gerenciamento de seus recursos, Esse repositorio
-é responsavel pela documentação do sistema, e esse readme
-contem os dados minimos de todos os repositorios.
 
-se quiser saber sobre a estrutura da documentação va no [sumario](./SUMARRY.md)
-e se quiser acompanhar as atualizações va no [changelog](./changelog.md)
-# Hawk-If-Frontend
-não ha nada aqui ainda
+O Hawk IF é um sistema automatizado de gerenciamento de salas que utiliza sensores instalados em cada ambiente para monitorar condições e disponibilidade em tempo real.
+
+Este repositório é responsável pela documentação do sistema, e este readme contém os dados mínimos de todos os repositórios.
+
+Se quiser saber sobre a estrutura da documentação, acesse o [sumário](./SUMARRY.md). E se quiser acompanhar as atualizações, acesse o [changelog](./CHANGELOG.md).
+
+# Hawk-IF-Frontend
+
+Frontend do projeto Hawk-IF. Este repositório busca entregar uma interface web com acessibilidade, segurança e otimização, consumindo o Backend do projeto para exibir o status das salas, realizar agendamentos e gerenciar os recursos disponíveis.
+
+- [Hawk-IF-Frontend](https://github.com/Hawk-IF/Hawk-IF-Frontend)
 
 # Hawk-IF-Backend
-Backend do [Hawk IFRN](https://github.com/Hawk-IF/) criado com 
-python e utilizando fastapi
 
-## Sumario
-- [Docs](#documentação-e-readme)
-- [Rodando o Projeto](#como-rodar)
+Backend do projeto Hawk-IF. Este repositório busca entregar a lógica de controle e gerenciamento dos sensores e das salas, fornecendo a API consumida pelo Frontend.
 
-## Documentação e readme
-O sistema tem seu proprio [repositorio de documentação](https://github.com/Hawk-IF/Hawk-IF-Docs)
-o repositorio do backend apenas tem alguns arquivos minimos como o 
-readme, para dar suporte rapido sem a necessidade de abrir outro repositorio
-ou buscar dentro de pastas e arquivos gigantes
+- [Hawk-IF-Backend](https://github.com/Hawk-IF/Hawk-IF-Backend)
 
+# Hawk-IF-Infra
 
-## Como Rodar
-O sistema tem alguns requisitos minimos para rodar:
+Infra do projeto Hawk-IF. Este repositório busca entregar a infraestrutura necessária para conectar tudo, desde o Backend com o Frontend até a aplicação utilizada para gerenciar os dispositivos (Home Assistant), preparando o sistema para rodar de forma local e também em produção.
 
-### Requisitos
-- python (versão no arquivo [.python-version](.python-version))
-- uv ou pip para gerenciar as dependencias do python
-- postgresql
-- git e github
-
-### Clonando o repositorio
-para clonar o repositorio basta rodar:
-
-```bash
-git clone https://github.com/Hawk-IF/Hawk-IF-Backend ./backend
-```
-
-### Baixando das dependencias do python:
-com o uv use:
-
-```bash
-uv sync
-```
-
-# Hawk-If-Infra
-não ha nada aqui ainda
+- [Hawk-IF-Infra](https://github.com/Hawk-IF/Hawk-IF-Infra)
