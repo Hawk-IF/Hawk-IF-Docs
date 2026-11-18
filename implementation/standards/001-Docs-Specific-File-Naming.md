@@ -1,9 +1,9 @@
 # STANDARD-001 — Docs Specific File Naming
 
-**Status:** approved 
+**Status:** approved  
 **Versão:** 1.0  
 **Última atualização:** 18-11-2026  
-**Autor:** @Pkpkawe
+**Autor:** @Pkpkawe  
 
 ---
 
@@ -28,6 +28,10 @@ UC-LoginAdmin.frontend.md
 ```
 
 Assim, o caso de uso, que já segue o padrão de identificação do tipo de arquivo usando UC, segue de seu título e sua identificação a qual corresponde, que nesse caso é o frontend.
+
+## Exceções
+
+Nos casos em que a especificação já faz parte do título, não há problemas.
 
 ## Exemplos
 
