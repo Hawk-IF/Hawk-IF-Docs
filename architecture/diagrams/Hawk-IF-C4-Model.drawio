@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="DiN4SSKJywRNR4SKdNj6">
+    <mxGraphModel dx="2606" dy="1555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lTi2xMRghOpFB0rxvXdw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; " vertex="1">
+          <mxGeometry height="600" width="760" x="34" y="390" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="HTTPS" c4Description="Interação do Usuário" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-7">
+          <mxCell edge="1" parent="1" source="lTi2xMRghOpFB0rxvXdw-32" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="lTi2xMRghOpFB0rxvXdw-34">
+            <mxGeometry relative="1" width="160" x="-0.1667" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="134" y="1220" as="sourcePoint" />
+              <mxPoint x="564" y="1100" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Usuário" c4Type="Person" c4Description="Acessa o sistema" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-32">
+          <mxCell parent="1" style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1">
+            <mxGeometry height="140" width="110.00000000000001" x="359" y="150" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Proxy Reverso e Load Balancer" c4Type="Container" c4Technology="Nginx" c4Description="Conecta os serviços da aplicação e encaminha requisições externas para os serviços internos." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-34">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="140" width="206" x="311" y="410" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Interface Web" c4Type="Container" c4Technology="React/TypeScript" c4Description="Interface Web que consome da API para garantir acesso as funcionalidades ao usuário." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-35">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="140" width="206" x="551" y="570" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Database" c4Technology="Postgres SQL" c4Description="" label="%c4Type%&lt;div style=&quot;font-size: 12px;&quot;&gt;[Container:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-36">
+          <mxCell parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;labelBackgroundColor=none;fillColor=#999999;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#8A8A8A;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};arcSize=10;" vertex="1">
+            <mxGeometry height="140" width="160" x="577" y="810" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API" c4Type="Container" c4Technology="FastAPI/Python" c4Description="Camada intermediária que se comunica com o banco de dados e as integrações do sistema para o mundo externo" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-37">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="140" width="206" x="311" y="690" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Cache" c4Type="Container" c4Technology="Redis" c4Description="Banco de dados NoSQL em memória de alta velocidade e baixa latência, usado como cache da aplicação." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-39">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1">
+            <mxGeometry height="140" width="206" x="74" y="810" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Home Assistant" c4Type="Container" c4Technology="Home Assistant" c4Description="Plataforma de automação que controla diversos dispositivos inteligentes em uma rede, evitando a necessidade de comunicação com a nuvem" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-40">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="140" width="206" x="64" y="570" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="HTTP/HTTPS" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-41">
+          <mxCell edge="1" parent="1" source="lTi2xMRghOpFB0rxvXdw-34" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="lTi2xMRghOpFB0rxvXdw-35">
+            <mxGeometry relative="1" width="160" x="0.5595" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="654" y="480" />
+              </Array>
+              <mxPoint x="634" y="420" as="sourcePoint" />
+              <mxPoint x="634" y="540" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="HTTP/HTTPS" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-42">
+          <mxCell edge="1" parent="1" source="lTi2xMRghOpFB0rxvXdw-34" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="lTi2xMRghOpFB0rxvXdw-40">
+            <mxGeometry relative="1" width="160" x="0.5726" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="167" y="480" />
+              </Array>
+              <mxPoint x="74" y="470" as="sourcePoint" />
+              <mxPoint x="214" y="560" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="HTTP/HTTPS" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-43">
+          <mxCell edge="1" parent="1" source="lTi2xMRghOpFB0rxvXdw-34" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="lTi2xMRghOpFB0rxvXdw-37">
+            <mxGeometry relative="1" width="160" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points" />
+              <mxPoint x="321" y="490" as="sourcePoint" />
+              <mxPoint x="177" y="580" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="Redis Protocol" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-45">
+          <mxCell edge="1" parent="1" source="lTi2xMRghOpFB0rxvXdw-37" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="lTi2xMRghOpFB0rxvXdw-39">
+            <mxGeometry relative="1" width="160" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="362.5" y="880" />
+              </Array>
+              <mxPoint x="374" y="830" as="sourcePoint" />
+              <mxPoint x="374" y="970" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="SQL" c4Description="" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="lTi2xMRghOpFB0rxvXdw-46">
+          <mxCell edge="1" parent="1" source="lTi2xMRghOpFB0rxvXdw-37" style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="lTi2xMRghOpFB0rxvXdw-36">
+            <mxGeometry relative="1" width="160" x="0.0776" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="465.5" y="880" />
+              </Array>
+              <mxPoint x="477" y="840" as="sourcePoint" />
+              <mxPoint x="394" y="890" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

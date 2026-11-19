@@ -22,6 +22,8 @@ Utilize o índice abaixo para encontrar rapidamente o tipo de documentação que
 
 O projeto é estruturado de forma desacoplada, mantendo o **frontend** e o **backend** independentes entre si. A orquestração e a conexão entre todas as partes do ecossistema são gerenciadas por meio de **Infraestrutura como Código (IaC)**, que atua como elo tanto para as aplicações internas quanto para serviços externos, como o **Home Assistant**.
 
+![Hawk IF - C4 Model](./diagrams/Hawk-IF-C4-Model.drawio.png)
+
 ### 1. Estrutura e Estratégia Arquitetural
 
 A estratégia arquitetural divide-se conforme a responsabilidade de cada camada do sistema:
